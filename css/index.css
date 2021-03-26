@@ -1,0 +1,413 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Commissioner', sans-serif; }
+
+body {
+  background: #EFEFE9; }
+  body button:hover {
+    cursor: pointer; }
+
+#section {
+  width: 700px;
+  height: auto;
+  margin: -100px auto 30px; }
+
+#header {
+  width: 100%;
+  height: 375px;
+  background-image: url("../images/image-hero-desktop.jpg");
+  background-size: 100%;
+  display: flex; }
+  #header .logo {
+    width: 50%;
+    height: auto; }
+    #header .logo h2 {
+      margin: 45px 170px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-weight: 600;
+      font-size: 22px; }
+  #header .menu {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 130px; }
+    #header .menu nav ul {
+      display: flex;
+      list-style: none;
+      margin: 45px 0px; }
+      #header .menu nav ul li {
+        margin-left: 30px; }
+        #header .menu nav ul li a {
+          text-decoration: none;
+          color: white;
+          font-size: 16px;
+          font-weight: 400;
+          font-family: Arial, Helvetica, sans-serif; }
+
+.mastercraft {
+  width: 100%;
+  height: 240px;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 2px gray;
+  position: relative; }
+  .mastercraft #img-mastercraft {
+    position: absolute;
+    left: 49%;
+    top: -28px; }
+  .mastercraft h2 {
+    text-align: center;
+    padding-top: 45px;
+    font-weight: 600; }
+  .mastercraft p {
+    text-align: center;
+    padding-top: 15px;
+    color: gray; }
+  .mastercraft .buttons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center; }
+    .mastercraft .buttons button:first-child {
+      padding: 20px 30px;
+      outline: none;
+      border: none;
+      background-color: #21975a;
+      color: white;
+      border-radius: 100px;
+      font-size: 14px;
+      font-weight: 600;
+      margin-left: 40px;
+      cursor: pointer; }
+    .mastercraft .buttons button:nth-child(2) {
+      outline: none;
+      border: none;
+      margin-right: 40px;
+      background: none;
+      display: flex; }
+      .mastercraft .buttons button:nth-child(2) img {
+        width: 60px; }
+      .mastercraft .buttons button:nth-child(2) span {
+        color: gray;
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 15px;
+        padding-top: 25px;
+        display: inline-block; }
+
+.dates {
+  width: 100%;
+  height: 170px;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding-top: 40px;
+  box-shadow: 0px 0px 2px gray; }
+  .dates .box--dates {
+    width: 90%;
+    height: 50px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+    .dates .box--dates .dates--box__in p {
+      margin-left: 40px;
+      font-size: 30px;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 800; }
+    .dates .box--dates .dates--box__in span {
+      margin-left: 40px;
+      color: gray;
+      font-family: Arial, Helvetica, sans-serif; }
+    .dates .box--dates .dates--box__in:nth-child(2) {
+      border-right: 1px solid #D9D9D9;
+      border-left: 1px solid #D9D9D9; }
+  .dates .date-bar {
+    width: 90%;
+    height: 10px;
+    background: #D9D9D9;
+    margin: 40px auto;
+    border-radius: 20px;
+    position: relative; }
+    .dates .date-bar span {
+      width: 80%;
+      height: 100%;
+      position: absolute;
+      background: #21975a;
+      border-radius: 20px; }
+
+.abaut--project {
+  width: 100%;
+  height: auto;
+  padding: 20px 40px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px gray; }
+  .abaut--project h3 {
+    padding: 30px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800; }
+  .abaut--project p {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px; }
+  .abaut--project p:nth-of-type(2) {
+    padding: 20px 0px; }
+  .abaut--project .project--bamboo {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    margin-bottom: 30px; }
+    .abaut--project .project--bamboo .project--bamboo__header {
+      display: flex;
+      justify-content: space-between; }
+      .abaut--project .project--bamboo .project--bamboo__header h3 {
+        padding: 0px; }
+      .abaut--project .project--bamboo .project--bamboo__header p {
+        color: #21975a;
+        font-weight: 600;
+        padding: 0px; }
+    .abaut--project .project--bamboo p {
+      padding: 20px 0px 30px; }
+    .abaut--project .project--bamboo .project--bamboo__select {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .abaut--project .project--bamboo .project--bamboo__select p {
+        color: black;
+        font-size: 30px;
+        font-weight: 800; }
+        .abaut--project .project--bamboo .project--bamboo__select p span {
+          font-size: 15px;
+          color: gray;
+          font-weight: 300; }
+      .abaut--project .project--bamboo .project--bamboo__select button {
+        height: 40px;
+        padding: 0 30px;
+        color: white;
+        font-weight: 600;
+        outline: none;
+        border: none;
+        background: #21975a;
+        border-radius: 100px; }
+  .abaut--project .project--black {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    margin-bottom: 30px; }
+    .abaut--project .project--black .project--black__header {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between; }
+      .abaut--project .project--black .project--black__header h3 {
+        padding: 0px; }
+      .abaut--project .project--black .project--black__header p {
+        color: #21975a;
+        font-weight: 600;
+        padding: 0px; }
+    .abaut--project .project--black p {
+      padding: 20px 0px 30px; }
+    .abaut--project .project--black .project--black__select {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .abaut--project .project--black .project--black__select p {
+        color: black;
+        font-size: 30px;
+        font-weight: 800; }
+        .abaut--project .project--black .project--black__select p span {
+          font-size: 15px;
+          color: gray;
+          font-weight: 300; }
+      .abaut--project .project--black .project--black__select button {
+        height: 40px;
+        padding: 0 30px;
+        color: white;
+        font-weight: 600;
+        outline: none;
+        border: none;
+        background: #21975a;
+        border-radius: 100px; }
+  .abaut--project .project--mahogany {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    opacity: .5; }
+    .abaut--project .project--mahogany .project--mahogany__header {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between; }
+      .abaut--project .project--mahogany .project--mahogany__header h3 {
+        padding: 0px; }
+      .abaut--project .project--mahogany .project--mahogany__header p {
+        color: #21975a;
+        font-weight: 600;
+        padding: 0px; }
+    .abaut--project .project--mahogany p {
+      padding: 20px 0px 30px; }
+    .abaut--project .project--mahogany .project--mahogany__select {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .abaut--project .project--mahogany .project--mahogany__select p {
+        color: black;
+        font-size: 30px;
+        font-weight: 800; }
+        .abaut--project .project--mahogany .project--mahogany__select p span {
+          font-size: 15px;
+          color: gray;
+          font-weight: 300; }
+      .abaut--project .project--mahogany .project--mahogany__select button {
+        height: 40px;
+        padding: 0 30px;
+        color: white;
+        font-weight: 600;
+        outline: none;
+        border: none;
+        background: gray;
+        border-radius: 100px; }
+
+.modal--windows {
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0px;
+  display: none;
+  position: fixed; }
+  .modal--windows .mastercraft--window {
+    width: 500px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    margin: 130px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 40px;
+    display: none; }
+    .modal--windows .mastercraft--window img {
+      width: 90px;
+      margin-top: 40px; }
+    .modal--windows .mastercraft--window h3 {
+      padding: 50px 0 20px;
+      font-weight: 800; }
+    .modal--windows .mastercraft--window p {
+      color: gray;
+      line-height: 24px; }
+    .modal--windows .mastercraft--window button {
+      margin-top: 30px;
+      padding: 10px 30px;
+      border-radius: 100px;
+      outline: none;
+      border: none;
+      background: #21975a;
+      color: white;
+      font-weight: 600; }
+
+.reward--window {
+  width: 680px;
+  height: auto;
+  padding: 20px 25px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  margin: 40px auto;
+  display: none; }
+  .reward--window .reward--header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between; }
+  .reward--window h3 {
+    margin-top: 40px;
+    font-weight: 800; }
+  .reward--window button {
+    height: 30px;
+    width: 30px;
+    outline: none;
+    border: none;
+    background: none; }
+    .reward--window button img {
+      width: 20px; }
+  .reward--window p {
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 30px; }
+  .reward--window .reward--pledge {
+    width: 100%;
+    width: auto;
+    padding: 20px 30px 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px; }
+    .reward--window .reward--pledge input[type="radio"] {
+      width: 20px;
+      height: 20px;
+      padding-top: 10px; }
+    .reward--window .reward--pledge span {
+      margin-left: 20px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #21975a; }
+    .reward--window .reward--pledge p {
+      padding-left: 40px;
+      line-height: 25px;
+      padding-bottom: 10px; }
+  .reward--window .reward--bamboo {
+    width: 100%;
+    width: auto;
+    padding: 20px 30px 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    margin-top: 25px; }
+    .reward--window .reward--bamboo .reward--bamboo__header {
+      width: 100%;
+      height: auto;
+      display: flex; }
+      .reward--window .reward--bamboo .reward--bamboo__header input[type="radio"] {
+        width: 20px;
+        height: 20px;
+        padding-top: 10px; }
+      .reward--window .reward--bamboo .reward--bamboo__header span {
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #21975a; }
+      .reward--window .reward--bamboo .reward--bamboo__header p {
+        display: inline-block;
+        padding: 0px;
+        margin-left: 200px;
+        color: black;
+        font-size: 20px;
+        font-weight: 600; }
+    .reward--window .reward--bamboo p {
+      line-height: 25px;
+      margin-left: 30px; }
+
+/*# sourceMappingURL=index.css.map */

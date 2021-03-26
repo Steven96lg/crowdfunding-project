@@ -1,0 +1,32 @@
+
+@import "variables";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Commissioner', sans-serif;
+}
+
+body{
+    background: #EFEFE9;
+    button:hover{
+        cursor: pointer;
+    }
+}
+
+#section{
+    width: 700px;
+    height: auto;
+    margin: -100px auto 30px;
+}
+
+@import "header";
+@import "mastercraft";
+@import "dates";
+@import "abautproject";
+
+//Vetanas Modales//
+
+@import "modalmastercraft";
+@import "modalreward";

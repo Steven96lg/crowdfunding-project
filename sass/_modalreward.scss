@@ -1,0 +1,95 @@
+
+.reward--window{
+    width: 680px;
+    height: auto;
+    padding: 20px 25px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    margin: 40px auto;
+    display: none;
+    .reward--header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    h3{
+        margin-top: 40px;
+        font-weight: 800;
+    }
+    button{
+        height: 30px;
+        width: 30px;
+        outline: none;
+        border: none;
+        background: none;
+        img{
+            width: 20px;
+        }
+    }
+    p{
+        color: gray;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .reward--pledge{
+        width: 100%;
+        width: auto;
+        padding: 20px 30px 10px;
+        border: 1px solid $bordercolor;
+        border-radius: 10px;
+        input[type="radio"]{
+            width: 20px;
+            height: 20px;
+            padding-top: 10px;
+        }
+        span{
+            margin-left: 20px;
+            font-size: 16px;
+            font-weight: 600;
+            color: $colorbuttons;
+        }
+        p{
+            padding-left: 40px;
+            line-height: 25px;
+            padding-bottom: 10px;
+        }
+    }
+    .reward--bamboo{
+        width: 100%;
+        width: auto;
+        padding: 20px 30px 10px;
+        border: 1px solid $bordercolor;
+        border-radius: 10px;
+        margin-top: 25px;
+        .reward--bamboo__header{
+            width: 100%;
+            height: auto;
+            display: flex;
+            input[type="radio"]{
+                width: 20px;
+                height: 20px;
+                padding-top: 10px;
+            }
+            span{
+                margin-left: 10px;
+                font-size: 16px;
+                font-weight: 600;
+                color: $colorbuttons;
+            }
+            p{
+                display: inline-block;
+                padding: 0px;
+                margin-left: 200px;
+                color: black;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+        p{
+            line-height: 25px;
+            margin-left: 30px;
+        }
+    }
+}
